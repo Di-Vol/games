@@ -1,1 +1,62 @@
-тут ксс стили
+body {
+    background-color: #d4d4d4;
+}
+h1 {
+    text-align: center;
+}
+.content {
+    background-color: #eee;
+    padding: 10px;
+    width: 900px;
+    margin: auto;
+    border: inset;
+
+}
+details {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: 5px;
+    border: solid 1px;
+    display: block;
+    
+}
+summary {
+    background-color: #fff;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: solid 1px;
+}
+summary:hover {
+    background: 
+    -webkit-gradient(linear,left top,right top,color-stop(0,#4d4d4d),color-stop(.4,#4d4d4d),color-stop(.5,#fff),color-stop(.6,#4d4d4d),color-stop(1,#4d4d4d));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: slidetounlock 2s infinite;
+    -webkit-text-size-adjust: none;}
+.game {
+    height: 600px;
+    margin: auto;
+    width: 800px;
+}
+.opt {
+    text-align: center;
+    padding-left: 10px;
+    font-style: oblique;
+}
+.foot {
+    background-color: rgb(241, 245, 192);
+    padding-left: 5px;
+    margin: auto;
+    width: 500px;
+    border: double;
+    margin-top: 20px;
+}
+@keyframes slidetounlock{
+0% {
+    background-position: -200px 0;
+}
+100% {
+    background-position: 200px 0;
+}
+}
